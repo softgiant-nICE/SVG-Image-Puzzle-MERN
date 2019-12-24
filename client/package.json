@@ -1,0 +1,51 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv-keywords": "^3.2.0",
+    "apeman-react-upload": "^3.1.1",
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "classnames": "^2.2.5",
+    "concurrently": "^3.6.0",
+    "dependencies": "0.0.1",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.0",
+    "mongoose": "^5.2.1",
+    "node": "8.11.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "peer": "^0.2.8",
+    "react": "next",
+    "react-dom": "next",
+    "react-scripts": "2.1.1",
+    "react-moment": "^0.7.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-svg": "^6.0.15",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0",
+    "validator": "^10.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "proxy": "http://localhost:3000",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
